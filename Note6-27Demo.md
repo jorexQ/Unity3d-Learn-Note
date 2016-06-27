@@ -1,4 +1,4 @@
-```c-sharp
+```csharp
 //Matri4x4.identity
 
 //1 0 0 x
@@ -26,6 +26,4 @@ void Start()
 
     transform.position = mt.MultiplyPoint(transform.position);
 }
-
-
 ```
