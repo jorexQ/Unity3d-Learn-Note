@@ -68,7 +68,7 @@ Quaternion.Euler()
 >在特殊角度时也会有角度余值（万象锁）
 
 ```C-sharp
-	Matri4x4
+Matri4x4
 ```
 ### 4x4矩阵
 >也是线性变换<br/>
@@ -78,9 +78,24 @@ Quaternion.Euler()
 >第二个数：列<br/>
 
 ```C-sharp
-	Matri4x4.identity
+Matri4x4.identity
 ```
 ### 单位矩阵
+
+自己的方向
+---------------
+```C-sharp
+Vector3 localDirection;
+localDirection = transform.forward
+// or
+Quaternion q = transform.rotation;
+localDirection = q * Vector3.forword;
+```
+
+
+
+
+
 
 	
 	
