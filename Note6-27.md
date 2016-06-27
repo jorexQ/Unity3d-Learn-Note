@@ -1,6 +1,6 @@
 回顾：
 ===============================
-```C-sharp
+```csharp
 GameObject.Find()
 ```
 
@@ -13,17 +13,17 @@ GameObject.Find()
 运动：
 -------------------------------
 
-```C-sharp
+```csharp
 transform.GetChild(index)
 ```
 ### index依照的是编辑器里的游戏对象的顺序
 
-```C-sharp
+```csharp
 transform.localPosition
 ```
 ### 相当父级游戏对象的坐标系
 
-```C-sharp
+```csharp
 transform.parent
 ```
 
@@ -32,12 +32,12 @@ transform.parent
 >
 >就表明这个游戏对象是根对象	
 
-```C-sharp
+```csharp
 transform.Translate()
 ```
 ### 可以改变朝向的运动函数
 
-```C-sharp
+```csharp
 Vector3.Lerp(fromPosition,toPosition, usedTime)
 ```
 
@@ -48,11 +48,11 @@ Vector3.Lerp(fromPosition,toPosition, usedTime)
 ------------------------------
 >旋转方向依照的是摄像机坐标系
 
-```C-sharp
+```csharp
 Mathf.Deg2Rad
 ```
 ### 单位角弧度
-```C-sharp
+```csharp
 Quaternion 
 ```
 ### 四源数
@@ -60,7 +60,7 @@ Quaternion
 * 多轴旋转一定会有角度余值（万象锁）
 * 叠加旋转是没问题的
 
-```C-sharp
+```csharp
 Quaternion.Euler()
 ```
 ### 获取欧拉角
