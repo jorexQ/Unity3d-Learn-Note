@@ -1,6 +1,6 @@
 回顾：
 ===============================
-```csharp
+```Csharp
 GameObject.Find()
 ```
 
@@ -52,6 +52,9 @@ Vector3.Lerp(fromPosition,toPosition, usedTime)
 Mathf.Deg2Rad
 ```
 ### 单位角弧度
+> (PI * 2)/360
+
+
 ```csharp
 Quaternion 
 ```
