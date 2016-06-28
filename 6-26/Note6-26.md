@@ -67,7 +67,7 @@
     通过范型获取指定类型的组件，获取所有这个类型的组件；
 
   * 滞后删除组件 `GameObject.Destroy(Object pComponent, float time)` : <br/>
-    删除指定的组件，须要你知道组件 的实例化对象，time是表示在规定的秒数之后删除， time可以不写，不写下一帧后删除；
+    删除指定的组件，须要你知道组件 的实例化对象，`time`是表示在规定的秒数之后删除， `time`可以不写，不写下一帧后删除；
 
   * 立即删除组件 `GameObject.DestroyImmediate(Object pComponent)` : <br/>
     当前语句表示立刻将组件删除，不会产生滞后；
