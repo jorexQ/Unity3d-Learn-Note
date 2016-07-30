@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm Demo.CSharp", "Algorithm Demo.CSharp.csproj", "{F59C2E0E-DD4D-33E0-2FAB-6256D03BD652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59C2E0E-DD4D-33E0-2FAB-6256D03BD652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59C2E0E-DD4D-33E0-2FAB-6256D03BD652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59C2E0E-DD4D-33E0-2FAB-6256D03BD652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59C2E0E-DD4D-33E0-2FAB-6256D03BD652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
